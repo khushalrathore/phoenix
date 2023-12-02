@@ -14,13 +14,13 @@ const Bottombar = () => {
             key={`bottombar-${link.label}`}
             to={link.route}
             className={`${
-              isActive && "rounded-[18px]  w-20 h-16 bg-alphaDark2 "
-            } flex-center flex-col gap-1 p-7 transition`}>
+              isActive && "rounded-[18px]  w-18 h-16 "
+            } flex-center flex-col p-7 transition`}>
           
   <img
     src={link.imgURL}
-    className={` group-hover: ${isActive ? " scale-125" : ""}`}
-    style={{ width: "22px", height: "22px" }} 
+    className={` group-hover: ${isActive ? "" : "invert-white"}`}
+    style={{ width: "28px", height: "28px" }} 
   />
 
             <p className="tiny-medium pt-1 text-stone-300">{link.label}</p>

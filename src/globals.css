@@ -75,7 +75,7 @@ body {
   }
 
   .tiny-medium {
-    @apply text-[10px] font-medium leading-[140%];
+    @apply text-[10px] font-semibold leading-[140%];
   }
 
   /* UTILITIES */
@@ -194,8 +194,11 @@ body {
 
   /* Bottom bar */
   .bottom-bar {
-  @apply z-50 flex-between w-11/12 h-20 sticky bottom-3 left-4 rounded-[20px] bg-alphaDark px-5 py-4 md:hidden;
+  @apply z-50 flex-between h-18 sticky bottom-0 rounded-t-[0px] bg-alphaDark px-5 py-4 md:hidden;
   backdrop-filter: blur(15px);
+}
+.h-18 {
+  height: 5rem/* 72px */;
 }
 .left-4 {
   left: 18px;
