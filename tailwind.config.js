@@ -31,7 +31,9 @@ export const theme = {
       'light-3': '#7878A3',       // Light Slate Gray
       'light-4': '#5C5C7B',       // Slate Gray
       'alphaDark' : 'rgba(0, 0, 0, 0.9)',
-      'alphaDark2' : 'rgba(255,255,255, 0.1)' 
+      'alphaDark2' : 'rgba(255,255,255, 0.1)' ,
+      'fg': '#3c5b7a',
+      'accent':'#cfedff'
     },
     
     

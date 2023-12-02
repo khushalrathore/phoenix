@@ -28,24 +28,33 @@ export const sidebarLinks = [
 
 export const bottombarLinks = [
   {
-    imgURL: "/assets/icons/NewHome.png",
+    imgURL: "/assets/icons/HomeL.png",
     route: "/",
     label: "Home",
+    imgURLF: "/assets/icons/HomeD.png",
+
   },
   {
-    imgURL: "/assets/icons/NewExplore.png",
+    imgURL: "/assets/icons/ExploreL.png",
     route: "/explore",
     label: "Explore",
+    imgURLF: "/assets/icons/ExploreD.png",
+
   },
   
   {
-    imgURL: "/assets/icons/NewPeople.png",
+    imgURL: "/assets/icons/PeopleL.png",
     route: "/all-users",
     label: "Activity",
+    imgURLF: "/assets/icons/PeopleD.png",
+
   },
   {
-    imgURL: "/assets/icons/NewSaved.png",
+    imgURL: "/assets/icons/SavedL.png",
     route: "/saved",
     label: "Profile",
+    imgURLF: "/assets/icons/SavedD.png",
+
   },
+  
 ];
