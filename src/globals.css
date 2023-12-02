@@ -129,6 +129,9 @@ body {
   .common-container {
     @apply flex flex-col flex-1 items-center gap-10 overflow-scroll py-10 px-5 md:px-8 lg:p-14 custom-scrollbar;
   }
+  .common-activity {
+    @apply flex-1 items-center py-10 px-5 md:px-8 lg:p-14 bg-fg1;
+  }
 
   /* All Users */
   .user-container {
@@ -149,7 +152,7 @@ body {
   }
 
   .explore-search {
-    @apply h-12 bg-dark-4 border-none placeholder:text-light-4 focus-visible:ring-0 focus-visible:ring-offset-0 ring-offset-0 !important;
+    @apply h-12 bg-fg border-none text-white placeholder:text-white text-lg  focus-visible:ring-0 focus-visible:ring-offset-0 ring-offset-0 !important;
   }
 
   /* Home */
@@ -244,7 +247,7 @@ body {
 
   /* Left sidebar */
   .leftsidebar {
-    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-light-1;
+    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-white border-r border-stone-100;
   }
 
   .leftsidebar-link {

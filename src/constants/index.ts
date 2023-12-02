@@ -19,11 +19,6 @@ export const sidebarLinks = [
     route: "/saved",
     label: "Profile",
   },
-  {
-    imgURL: "/assets/icons/gallery-add.svg",
-    route: "/create-post",
-    label: "Create Post",
-  },
 ];
 
 export const bottombarLinks = [

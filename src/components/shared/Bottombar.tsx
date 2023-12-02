@@ -23,7 +23,7 @@ const Bottombar = () => {
     style={{ width: "48px", height: "27px" }} 
   />
 
-<p className={`pt-2 text-xs text-black`} style={{ fontWeight: isActive ? 'bold' : '500' }}>
+<p className={`pt-2 base-medium text-black`} style={{ fontWeight: isActive ? 'bold' : '500' }}>
     {link.label}
   </p>
           </Link>

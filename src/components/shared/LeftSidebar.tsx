@@ -69,15 +69,14 @@ const LeftSidebar = () => {
     isActive ? "font-bold" : "font-100"
   }`}
 >
-  <img
-    src={link.imgURL}
-    className={`group-hover:transition-transform transform-gpu group-hover:scale-150 ${
-      isActive && "scale-150"
-    }`}
+<img
+  src={isActive ? link.imgURL : link.imgURL}
+      className={` group-hover: ${isActive ? "scale-125" : " scale-125"}`}
     style={{ width: "24px", height: "24px" }} 
   />
-  {link.label}
-</NavLink>
+<p className={`pt-2 text- text-black`} style={{ fontWeight: isActive ? 'bold' : '500' }}>
+    {link.label}
+  </p></NavLink>
 
 </li>
 

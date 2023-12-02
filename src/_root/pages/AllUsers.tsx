@@ -14,9 +14,14 @@ const AllUsers = () => {
   }
 
   return (
-    <div className="common-container">
+    <div className=" common-activity">
+      <img
+      src="/public/assets/icons/banner.png"
+      width={400}
+      height={100}
+    
+      />
       <div className="user-container">
-        <h2 className="h3-bold md:h2-bold text-left w-full">All Users</h2>
         {isLoading && !creators ? (
           <Loader />
         ) : (

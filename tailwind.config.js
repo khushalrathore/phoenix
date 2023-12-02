@@ -33,7 +33,8 @@ export const theme = {
       'alphaDark' : 'rgba(0, 0, 0, 0.9)',
       'alphaDark2' : 'rgba(255,255,255, 0.1)' ,
       'fg': '#3c5b7a',
-      'accent':'#cfedff'
+      'accent':'#cfedff',
+      'fg1': 'rgba(60, 91, 122, 1)'
     },
     
     
