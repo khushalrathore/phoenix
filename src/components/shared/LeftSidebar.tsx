@@ -29,7 +29,7 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/logoSide.png"
             alt="logo"
             width={170}
             height={36}
@@ -54,29 +54,33 @@ const LeftSidebar = () => {
           </Link>
         )}
 
-        <ul className="flex flex-col gap-6">
+        <ul className="flex flex-col gap-6 t">
           {sidebarLinks.map((link: INavLink) => {
             const isActive = pathname === link.route;
 
             return (
               <li
-                key={link.label}
-                className={`leftsidebar-link group ${
-                  isActive && "bg-primary-500"
-                }`}>
-                <NavLink
-                  to={link.route}
-                  className="flex gap-4 items-center p-4">
-                  <img
-                    src={link.imgURL}
-                    alt={link.label}
-                    className={`group-hover:invert-white ${
-                      isActive && "invert-white"
-                    }`}
-                  />
-                  {link.label}
-                </NavLink>
-              </li>
+  key={link.label}
+  className={`leftsidebar-link group ${isActive && "bg-light-2"}`}
+>
+<NavLink
+  to={link.route}
+  className={`flex gap-4 items-center p-4 text-black ${
+    isActive ? "font-bold" : "font-100"
+  }`}
+>
+  <img
+    src={link.imgURL}
+    className={`group-hover:transition-transform transform-gpu group-hover:scale-150 ${
+      isActive && "scale-150"
+    }`}
+    style={{ width: "24px", height: "24px" }} 
+  />
+  {link.label}
+</NavLink>
+
+</li>
+
             );
           })}
         </ul>
