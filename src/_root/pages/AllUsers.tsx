@@ -15,12 +15,7 @@ const AllUsers = () => {
 
   return (
     <div className=" common-activity">
-      <img
-      src="/public/assets/icons/banner.png"
-      width={400}
-      height={100}
-    
-      />
+      <p> No Activity yet</p>
       <div className="user-container">
         {isLoading && !creators ? (
           <Loader />
