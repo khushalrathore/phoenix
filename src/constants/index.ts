@@ -1,21 +1,21 @@
 export const sidebarLinks = [
   {
-    imgURL: "/assets/icons/HomeL.png",
+    imgURL: "/assets/icons/NewHome.png",
     route: "/",
     label: "Home",
   },
   {
-    imgURL: "/assets/icons/ExploreL.png",
+    imgURL: "/assets/icons/NewExplore.png",
     route: "/explore",
     label: "Explore",
   },
   {
-    imgURL: "/assets/icons/PeopleL.png",
+    imgURL: "/assets/icons/NewPeople.png",
     route: "/all-users",
     label: "Activity",
   },
   {
-    imgURL: "/assets/icons/SavedL.png",
+    imgURL: "/assets/icons/NewSaved.png",
     route: "/saved",
     label: "Profile",
   },
@@ -28,23 +28,23 @@ export const sidebarLinks = [
 
 export const bottombarLinks = [
   {
-    imgURL: "/assets/icons/Home.png",
+    imgURL: "/assets/icons/NewHome.png",
     route: "/",
     label: "Home",
   },
   {
-    imgURL: "/assets/icons/Explore.png",
+    imgURL: "/assets/icons/NewExplore.png",
     route: "/explore",
     label: "Explore",
   },
   
   {
-    imgURL: "/assets/icons/People.png",
+    imgURL: "/assets/icons/NewPeople.png",
     route: "/all-users",
     label: "Activity",
   },
   {
-    imgURL: "/assets/icons/Saved.png",
+    imgURL: "/assets/icons/NewSaved.png",
     route: "/saved",
     label: "Profile",
   },
